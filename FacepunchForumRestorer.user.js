@@ -42,7 +42,7 @@ $(function() {
     
     // OIFY //
     
-    $("#cat197").append("<tr id='forum56' class='forumbit_post L1'\">");
+    $("#cat197").append("<tr id='forum56' class='forumbit_post L1'>");
     $("#forum56").append("<td class='foruminfo' id='oify' style=\"background-image: url('/fp/forums/56.png?1');background-position: 6px center;background-repeat: no-repeat;padding-left: 29px; background-color:green;\">");
     $("#oify").append("<div class='forumdata' id='oifyinfo'>");
     $("#oifyinfo").append("<h2 class='forumtitle' id='oifytitle'>");
@@ -50,7 +50,7 @@ $(function() {
     $("#oifyinfo").append("<span class id='viewing' style=\"color: black;\">(Hidden)</span>");
     $("#oifyinfo").append("<p class='forumdescription' style=\"color: black;\">Hottest place on the web.</p>");
     $("#forum56").append("<td class='alt forumlastpost last_post_column' id='oifylastpost' style=\"background-color:green;\">");
-    $("#oifylastpost").append("<div class='LastPostAvatar' id='sfmLastPostID' style=\"background-color:green;\">");
+    $("#oifylastpost").append("<div class='LastPostAvatar' id='oifyLastPostID' style=\"background-color:green;\">");
     $("#oifylastpost").append("<p class='lastposttitle' id='oifylastpostid'>");
     $("#oifylastpostid").append("<a href='#' style=\"color: black;\">Hidden</a>");
     $("#oifylastpostid").append("<p class='lastpostdate' style=\"color: black;\">Gold members only.</p>");
@@ -59,7 +59,20 @@ $(function() {
     
     // Cooking Chums //
     
-    
+    $("#cat392").append("<tr id='forum388' class='forumbit_post L2'>");
+    $("#forum388").append("<td class='foruminfo' id='cookchums' style=\"background-image: url('/fp/forums/388.png?1');background-position: 6px center;background-repeat: no-repeat; padding-left: 29px;\">");
+    $("#cookchums").append("<div class='forumdata' id='cookchumsinfo'>");
+    $("#cookchumsinfo").append("<h2 class='forumtitle' id='cookchumstitle'>");
+    $("#cookchumstitle").append("<a href='forumdisplay.php?f=388' title='Threads and Posts Hidden'>Cooking Chums</a>");
+    $("#cookchumsinfo").append("<span class id='viewing'>(Hidden)</span>");
+    $("#cookchumsinfo").append("<p class='forumdescription'>Making bad food taste great is our specialty</p>");
+    $("#forum388").append("<td class='alt forumlastpost last_post_column' id='cookchumslastpost'>");
+    $("#cookchumslastpost").append("<div class='LastPostAvatar' id='cookchumsLastPostID'>");
+    $("#cookchumsLastPostID").append("<a href='/members/495332' id='cookchumsAvatar'>");
+    $("#cookchumsAvatar").append("<img src='/p.gif' width='100%' height='100%' alt='ZeeCaptain' title='ZeeCaptain'>");
+    $("#cookchumslastpost").append("<p class='lastposttitle' id='cookchumslastpostid'>");
+    $("#cookchumslastpostid").append("<a href='http://facepunch.com/showthread.php?t=1203996&goto=newpost' class='threadtitle' title='Go to first unread post in thread \'The Motherfuckin\' fastfood thread\''>The Motherfuckin' fastfood thread</a>");
+    $("#cookchumslastpostid").append("<p class='lastpostdate'>Link for latest post.</p>");    
     
     ///////////////////
 });

@@ -16,7 +16,6 @@
 // @license     WTFPL
 // ==/UserScript==
 
-// Begin terrible userscript
 $(function() {
 
     // Div IDs are being assigned because otherwise it will pull duplicates from each category of the forums and not append properly.
@@ -28,7 +27,7 @@ $(function() {
     $("#forum412").append("<td class='foruminfo' id='sfm' style=\"background-image: url('/fp/forums/412.png?1');background-position: 6px center;background-repeat: no-repeat;padding-left: 29px;\">");
     $("#sfm").append("<div class='forumdata' id='sfminfo'>");
     $("#sfminfo").append("<h2 class='forumtitle' id='sfmtitle'>");
-    $("#sfmtitle").append("<a href='forumdisplay.php?f=412' title='Placeholder Info Here'>Source Filmmaker (Gabe Edition)</a>");
+    $("#sfmtitle").append("<a href='forumdisplay.php?f=412' title='Threads and Posts Hidden'>Source Filmmaker (Gabe Edition)</a>");
     $("#sfminfo").append("<span class id='viewing'>(Hidden)</span>");
     $("#sfminfo").append("<p class='forumdescription'>Creating HD Team Fortress 2 movies since July 2012.</p>");
     $("#forum412").append("<td class='alt forumlastpost last_post_column' id='sfmlastpost'>");
@@ -41,4 +40,26 @@ $(function() {
     
     ////////////////////
     
+    // OIFY //
+    
+    $("#cat197").append("<tr id='forum56' class='forumbit_post L1'\">");
+    $("#forum56").append("<td class='foruminfo' id='oify' style=\"background-image: url('/fp/forums/56.png?1');background-position: 6px center;background-repeat: no-repeat;padding-left: 29px; background-color:green;\">");
+    $("#oify").append("<div class='forumdata' id='oifyinfo'>");
+    $("#oifyinfo").append("<h2 class='forumtitle' id='oifytitle'>");
+    $("#oifytitle").append("<a href='forumdisplay.php?f=56' title='Threads and Posts Hidden' style=\"color: white;\">OIFY</a>");
+    $("#oifyinfo").append("<span class id='viewing' style=\"color: black;\">(Hidden)</span>");
+    $("#oifyinfo").append("<p class='forumdescription' style=\"color: black;\">Hottest place on the web.</p>");
+    $("#forum56").append("<td class='alt forumlastpost last_post_column' id='oifylastpost' style=\"background-color:green;\">");
+    $("#oifylastpost").append("<div class='LastPostAvatar' id='sfmLastPostID' style=\"background-color:green;\">");
+    $("#oifylastpost").append("<p class='lastposttitle' id='oifylastpostid'>");
+    $("#oifylastpostid").append("<a href='#' style=\"color: black;\">Hidden</a>");
+    $("#oifylastpostid").append("<p class='lastpostdate' style=\"color: black;\">Gold members only.</p>");
+    
+    /////////////////////
+    
+    // Cooking Chums //
+    
+    
+    
+    ///////////////////
 });

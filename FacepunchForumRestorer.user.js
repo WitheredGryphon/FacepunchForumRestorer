@@ -75,4 +75,36 @@ $(function() {
     $("#cookchumslastpostid").append("<p class='lastpostdate'>Link for latest post.</p>");    
     
     ///////////////////
+    
+    // Golds Gaming //
+    
+    $("#cat348").append("<tr id='forum408' class='forumbit_post L2'>");
+    $("#forum408").append("<td class='foruminfo' id='goldsgaming' style=\"background-image: url('fp/forums/408.png?1');background-position: 6px center;background-repeat: no-repeat; padding-left: 29px;\">");
+    $("#goldsgaming").append("<div class='forumdata' id='goldsgaminginfo'>");
+    $("#goldsgaminginfo").append("<h2 class='forumtitle' id='goldsgamingtitle'>");
+    $("#goldsgamingtitle").append("<a href='forumdisplay.php?f=408' title='Threads and Posts Hidden'>Golds Gaming</a>");
+    $("#goldsgaminginfo").append("<span class id='viewing'>(Hidden)</span>");
+    $("#goldsgaminginfo").append("<p class='forumdescription'>Gaming with your fellow Glod Menbers.</p>");
+    $("#forum408").append("<td class='alt forumlastpost last_post_column' id='goldsgaminglastpost'>");
+    $("#goldsgaminglastpost").append("<div class='LastPostAvatar' id='goldsgamingLastPostID'>");
+    $("#goldsgaminglastpost").append("<p class='lastposttitle' id='goldsgaminglastpostid'>");
+    $("#goldsgaminglastpostid").append("<a href='#'>Hidden</a>");
+    $("#goldsgaminglastpostid").append("<p class='lastpostdate'>Gold members only.</p>");
+
+    // Golds Workshop //
+    
+    $("#cat228").append("<tr id='forum409' class='forumbit_post L1'>");
+    $("#forum409").append("<td class='foruminfo' id='goldsworkshop' style=\"background-image: url('fp/forums/409.png?1');background-position: 6px center;background-repeat: no-repeat; padding-left: 29px;\">");
+    $("#goldsworkshop").append("<div class='forumdata' id='goldsworkshopinfo'>");
+    $("#goldsworkshopinfo").append("<h2 class='forumtitle' id='goldsworkshoptitle'>");
+    $("#goldsworkshoptitle").append("<a href='forumdisplay.php?f=409' title='Threads and Posts Hidden'>Golds Workshiop</a>");
+    $("#goldsworkshopinfo").append("<span class id='viewing'>(Hidden)</span>");
+    $("#goldsworkshopinfo").append("<p class='forumdescription'>We make cool stuff for each other.</p>");
+    $("#forum409").append("<td class='alt forumlastpost last_post_column' id='goldsworkshoplastpost'>");
+    $("#goldsworkshoplastpost").append("<div class='LastPostAvatar' id='goldsworkshopLastPostID'>");
+    $("#goldsworkshoplastpost").append("<p class='lastposttitle' id='goldsworkshoplastpostid'>");
+    $("#goldsworkshoplastpostid").append("<a href='#'>Hidden</a>");
+    $("#goldsworkshoplastpostid").append("<p class='lastpostdate'>Gold members only.</p>");
+    
+    ////////////////////
 });
